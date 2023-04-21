@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(205, 0, 205);
+    color: rgb(0, 0, 148);
+    font-family: Arial;
+    font-size: 60px;
+}
+
+div.text{
+    font: size 48px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+div.text{
+    font-family: times;
+    font-size: 21px;
+}
