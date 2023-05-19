@@ -21,6 +21,22 @@ display: flex;
 flex-wrap: wrap;
 }
 
+div.roundedStroke {
+    border: 2px solid rgb(0, 0, 0);
+    height: 400px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+
+  div.roundedStroke2 {
+    border: 2px solid rgb(0, 0, 0);
+    height: 215px;
+    width: 720px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+  }
+
 div.key {
 height: 150px;
 width: calc(10% - 20px);
