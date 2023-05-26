@@ -16,13 +16,18 @@ img {
     width: 100%;
 }
 
+video {
+    width: 100%;
+}
+
 div.row {
 display: flex;
 flex-wrap: wrap;
 }
 
-div.col {
-
+div.key.feature:hover {
+    background-color: blueviolet;
+    transition: 10s;
 }
 
 div.left {
@@ -32,6 +37,11 @@ div.left {
 div.right {
     width:50%;
     font-size: 16px;
+    text-align: center;
+}
+
+div.text2 {
+    font-size: 20px;
 }
 
 div.infoemoji {
@@ -118,19 +128,17 @@ div.spacekey:hover {
 }
 
 div.menu {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     position:fixed;
     left: 0px;
     bottom: 0px;
     width: 100%;
     text-align: center;
-    transition: 2s;
+    z-index: 10;
 }
 
 div.menu:hover {
     background-color: rgb(199, 199, 199);
-    border-radius:100%;
-    transition: 2s;
 }
 
 div.Cry img{
@@ -163,6 +171,7 @@ div.info {
     cursor: pointer;
     display: none;
     overflow: scroll;
+    z-index: 20;
 }
 
 div.info.show {
