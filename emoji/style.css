@@ -32,12 +32,14 @@ div.key.feature:hover {
 
 div.left {
     width:50%;
+    font-size: 24px;
+    margin-bottom: 80px;
 }
 
 div.right {
     width:50%;
-    font-size: 16px;
-    text-align: center;
+    font-size: 24px;
+    margin-bottom: 80px;
 }
 
 div.text1 {
@@ -235,3 +237,21 @@ div.info.show {
     }
 }
 
+
+div.tombstonelabel {
+    text-transform: uppercase;
+    border-bottom:1px solid black;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+div.tombstonevalue {
+    border-bottom:1px solid black;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+div.artworktitle {
+    font-size:48px;
+    font-family: serif;
+}
