@@ -27,7 +27,7 @@ flex-wrap: wrap;
 
 div.key.feature:hover {
     background-color: blueviolet;
-    transition: 10s;
+    transition: 2s;
 }
 
 div.left {
@@ -38,6 +38,51 @@ div.right {
     width:50%;
     font-size: 16px;
     text-align: center;
+}
+
+div.text1 {
+    font-size: 20px;
+    width: 60%;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: auto;
+}
+
+div.historyimg {
+    width: 80%;
+    height: auto;
+    margin-top: 50px;
+    margin-right: auto;
+    position: relative;
+}
+
+
+div.historyimg:hover {
+    background-image:url("backgorund.jpg");
+}
+
+div.historyimg2 {
+    width: 75%;
+    position: relative;
+}
+
+div.historyimg3 {
+    width: 70%;
+    position: relative;
+}
+
+div.historyimg4 {
+    width: 80%;
+    position: relative;
+}
+
+div.historyimg4:hover {
+    background-image:url("backgorund.jpg");
+}
+
+div.historyimg5 {
+    width: 65%;
+    position: relative;
 }
 
 div.text2 {
@@ -138,7 +183,7 @@ div.menu {
 }
 
 div.menu:hover {
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(178, 142, 202);
 }
 
 div.Cry img{
@@ -164,7 +209,7 @@ div.cry {
 div.info {
     width:50%;
     height:100vh;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(206, 206, 206);
     position:fixed;
     top:0px;
     left:0px;
